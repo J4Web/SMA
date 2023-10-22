@@ -43,7 +43,7 @@ function App() {
   // console.log(isLoggedIn);
 
   return (
-    <div className='flex flex-col h-screen w-full justify-between'>
+    <div className='flex flex-col min-h-screen w-full justify-between'>
       <Navbar />
       <Routes>
         <Route path='oauth' element={<LoginCallback />} />
